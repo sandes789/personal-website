@@ -5,7 +5,7 @@
 }
 
 @mixin transform($property) {
-    -webkit-animation: $property;
-    -moz-animation: $property;
-    animation: $property;
+    -webkit-transform: $property;
+    -moz-transform: $property;
+    transform: $property;
 }

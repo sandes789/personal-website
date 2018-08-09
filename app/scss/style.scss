@@ -25,7 +25,7 @@ nav {
 
 // Particles CSS
 .count-particles {
-    background: $black022;
+    background: $black;
     position: absolute;
     top: 48px;
     left: 0;
@@ -70,7 +70,7 @@ nav {
 }
 
 .header {
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/1.JPG);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -282,4 +282,173 @@ nav {
         
     }
     
+}
+
+// image hover
+.hover {
+	float: left;
+	position: relative;
+	cursor: default
+}
+
+.hover .overlay {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.hover img {
+	display: block;
+	position: relative
+}
+
+.hover h2 {
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	background: rgba(0, 0, 0, .6)
+}
+
+.hover button.info {
+	text-decoration: none;
+	padding: 7px 14px;
+	border: 1px solid #fff;
+	margin: 50px 0 0;
+	border-radius: 0;
+	background-color: transparent
+}
+
+.hover button.info:hover {
+	box-shadow: 0 0 5px #fff
+}
+
+.ehover5 button.info:hover,
+.hover button.nullbutton:hover {
+	box-shadow: none
+}
+
+.hover button.nullbutton {
+	border: none;
+	padding: 0;
+	margin: 0
+}
+
+.ehover4 button.info,
+.ehover42 button.info {
+	margin: -55px 0 0;
+	padding: 73px 90px;
+	font-weight: 400;
+	border: 1px solid #fff
+}
+
+.modal-open .modal,
+button:focus {
+	outline: 0!important
+}
+
+.point {
+	cursor: pointer
+}
+
+.ehover11 {
+	background: -webkit-linear-gradient(45deg, #ff89e9 0, #05abe0 100%);
+	background: linear-gradient(45deg, #ff89e9 0, #05abe0 100%)
+}
+
+.ehover11 img {
+	max-width: none;
+	width: calc(100% + 60px);
+	transition: opacity .35s, transform .45s;
+	-webkit-transform: translate3d(-40px, 0, 0);
+	transform: translate3d(-40px, 0, 0)
+}
+
+
+.ehover11 .overlay {
+	padding: 3em;
+	text-align: left
+}
+
+.ehover11 h2 {
+	background-color: transparent;
+	padding: 15% 0 10px;
+	text-align: left
+}
+
+.ehover11 button.info {
+	color: #FFF;
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+	-webkit-transition: opacity .35s, -webkit-transform .45s;
+	transition: opacity .35s, transform .45s;
+	-webkit-transform: translate3d(-10px, 0, 0);
+	transform: translate3d(-10px, 0, 0)
+}
+
+.ehover11:hover img {
+	opacity: .6;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+.ehover11:hover .overlay:before,
+.ehover11:hover button.info {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+.ehover11 .overlay::before {
+    content: '';
+    position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	border: 1px solid #fff;
+	opacity: 0;
+	transition: opacity .35s, transform .45s;
+	-webkit-transform: translate3d(-20px, 0, 0);
+	transform: translate3d(-20px, 0, 0)
+}
+.hover, .hover .overlay {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.hover button.info, .hover h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+// table
+table{
+    tr:last-child{
+        th,td{
+            border-bottom: 1px solid #dee2e6;   
+        }
+    }
+}
+.progressbar{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:23px;
+    position:relative;
+    background-color:#EEE;
+    box-shadow:inset 0px 1px 1px rgba(0,0,0,.1);
+}
+.proggress{height:8px;
+    width:10px;
+    background-color:#3498db;
+}
+.percentCount{
+    float:right;
+    margin-top:-30px;
+    clear:both;
+    font-weight:bold;
+}
+table tr:hover {
+    background: #bbbbbb;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
 }
