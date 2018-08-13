@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px)  {
+.navbar {
+    background: #d7242a;
+}
+img.w-75.img-sm {
+    width: 100% !important;
+}    
+.p-5, .pl-5, .pr-5, .pt-5 {
+    padding: 1rem!important;
+}
+.table-responsive {
+    margin-bottom: 40px;
+}
+}
+@media only screen and (max-width: 480px)  {
+    .header {
+        background-position: right;
+    }
+    .arrow {
+        padding-left: 90px;
+    }
+    .caption h1 {
+        font-size: 2rem;
+    }
+    .header-text {
+        border: 1px solid #ffffff;
+        border-radius: 0;
+        padding: 10px 30px;
+        height: 70px;
+    }
+}
