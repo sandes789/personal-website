@@ -597,7 +597,7 @@ footer p {
     background: #d7242a; }
   img.w-75.img-sm {
     width: 100% !important; }
-  .p-5, .pl-5, .pr-5, .pt-5 {
+  section.p-5, section.pl-5, section.pr-5, section.pt-5 {
     padding: 1rem !important; }
   .table-responsive {
     margin-bottom: 40px; } }
